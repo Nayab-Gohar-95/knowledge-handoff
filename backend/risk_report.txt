@@ -1,0 +1,8 @@
+[info] Scanning 4 file(s) in /Users/linhhuynh/Desktop/steam-snap …
+
+RISK    FILE                                            COMPLEXITY  WHY
+-----------------------------------------------------------------------
+MEDIUM  docs/.sphinx/_static/js/overwrite_links.js            41.0  1 contributor, last touched 39 days ago, doc score 2.9/100.
+MEDIUM  docs/.sphinx/get_vale_conf.py                        144.0  1 contributor, last touched 194 days ago, doc score 25.7/100.
+MEDIUM  docs/.sphinx/update_sp.py                            284.0  1 contributor, last touched 194 days ago, doc score 41.9/100.
+LOW     docs/conf.py                                         297.0  3 contributors, last touched 38 days ago, doc score 33.6/100.
