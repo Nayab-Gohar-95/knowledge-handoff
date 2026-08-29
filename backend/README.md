@@ -28,3 +28,10 @@ flowchart TD
 `generate_reason_llm()` calls Bob Shell (`bob -p`) at runtime for a natural
 one-sentence explanation. Falls back to a template if Bob errors or times
 out (15s), so the pipeline never breaks mid-run.
+
+## How To Run
+You can choose any repo or documents that you want to check by clone it to your local computer 
+
+```bash
+python backend/agents/orchestrator.py path/to/your/repo
+```
