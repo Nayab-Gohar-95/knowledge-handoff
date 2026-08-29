@@ -176,7 +176,10 @@ def compute_risk(files: list[dict[str, Any]]) -> list[dict[str, Any]]:
         )
         enriched_f = dict(f)  # shallow copy — don't mutate caller's data
         enriched_f["risk_level"] = risk_level
-        enriched_f["why"] = _generate_reason(enriched_f)
+        if risk_level in ("HIGH", "MEDIUM"):
+            enriched_f["why"] = generate_reason_llm(enriched_f)
+        else:
+            enriched_f["why"] = _generate_reason(enriched_f)
         enriched.append(enriched_f)
 
     enriched.sort(key=lambda x: (_RISK_ORDER[x["risk_level"]], x["doc_score"]))
