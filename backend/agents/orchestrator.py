@@ -18,7 +18,6 @@ from __future__ import annotations
 import ast
 import re
 import subprocess
-import textwrap
 from datetime import date, datetime
 from pathlib import Path
 from statistics import median
@@ -78,7 +77,6 @@ def _generate_reason(f: dict[str, Any]) -> str:
     """
     author_count: int = f["author_count"]
     last_touch: int = f["last_touch_days_ago"]
-    complexity: float = f["complexity_score"]
     doc: float = f["doc_score"]
 
     author_str = (
@@ -87,14 +85,13 @@ def _generate_reason(f: dict[str, Any]) -> str:
         else f"{author_count} contributors"
     )
     touch_str = f"last touched {last_touch} day{'s' if last_touch != 1 else ''} ago"
-    complexity_str = f"complexity score {complexity:.1f}"
     doc_str = (
         "zero comments (doc score 0.0/100)"
         if doc == 0
         else f"doc score {doc:.1f}/100"
     )
 
-    return f"{author_str}, {touch_str}, {complexity_str}, {doc_str}."
+    return f"{author_str}, {touch_str}, {doc_str}."
 
 
 # ---------------------------------------------------------------------------
@@ -350,16 +347,22 @@ def demo(repo_path: str) -> None:
     ranked = compute_risk(file_dicts)
 
     # Print ranked table
-    col_risk = 6
-    col_file = max(len(r["file"]) for r in ranked) + 2
-    col_why  = 60
+    col_risk       = 6
+    col_file       = max(len(r["file"]) for r in ranked) + 2
+    col_complexity = 12  # "COMPLEXITY" header is 10 chars
 
-    header = f"{'RISK':<{col_risk}}  {'FILE':<{col_file}}  WHY"
+    header = (
+        f"{'RISK':<{col_risk}}  {'FILE':<{col_file}}  "
+        f"{'COMPLEXITY':>{col_complexity}}  WHY"
+    )
     print(header)
     print("-" * len(header))
     for r in ranked:
-        why_wrapped = textwrap.shorten(r["why"], width=col_why, placeholder="…")
-        print(f"{r['risk_level']:<{col_risk}}  {r['file']:<{col_file}}  {why_wrapped}")
+        complexity_str = f"{r['complexity_score']:.1f}"
+        print(
+            f"{r['risk_level']:<{col_risk}}  {r['file']:<{col_file}}  "
+            f"{complexity_str:>{col_complexity}}  {r['why']}"
+        )
 
 
 # ---------------------------------------------------------------------------
