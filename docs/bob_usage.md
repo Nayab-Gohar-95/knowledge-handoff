@@ -31,6 +31,3 @@ Bob-Shell-backed reason generation, standalone git-repo test harness]
 during the session: removed an unused parameter it introduced, and fixed
 a bug in its own test assertion (the code was actually right; the test's
 string-match check was wrong) after a smoke test failure.
-
-**Verdict:** Working, self-validated via smoke test. Not yet tested
-against real git history (see Session 2).
