@@ -118,3 +118,8 @@ build/
 # DO NOT REMOVE ABOVE PATTERNS
 # Add project-specific patterns below
 # ============================================
+
+# Target repos under test (e.g. steam-snap) stay local-only,
+# never committed into this submission repo
+sample-repos/
+.bob/

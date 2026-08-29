@@ -1,0 +1,647 @@
+{
+  "agent": "complexity_agent",
+  "repo": "C:\\Users\\Lenovo\\Downloads\\knowledge-handoff\\sample-repos\\steam-snap",
+  "file_count_analyzed": 64,
+  "files": [
+    {
+      "file": "snap/snapcraft.yaml",
+      "complexity_score": 100.0,
+      "metrics": {
+        "nloc": 622,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/steamreport",
+      "complexity_score": 75.88,
+      "metrics": {
+        "nloc": 472,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/desktop-launch",
+      "complexity_score": 67.85,
+      "metrics": {
+        "nloc": 422,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reuse/mermaid.txt",
+      "complexity_score": 50.32,
+      "metrics": {
+        "nloc": 313,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "snap/gui/steam.desktop",
+      "complexity_score": 45.98,
+      "metrics": {
+        "nloc": 286,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/update_sp.py",
+      "complexity_score": 42.12,
+      "metrics": {
+        "nloc": 202,
+        "function_count": 6,
+        "avg_cyclomatic_complexity": 6,
+        "max_cyclomatic_complexity": 16
+      }
+    },
+    {
+      "file": "docs/howto/troubleshooting/index.md",
+      "complexity_score": 29.26,
+      "metrics": {
+        "nloc": 182,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/Makefile",
+      "complexity_score": 27.81,
+      "metrics": {
+        "nloc": 173,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/nvidia32",
+      "complexity_score": 27.49,
+      "metrics": {
+        "nloc": 171,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/contributing/development.md",
+      "complexity_score": 25.72,
+      "metrics": {
+        "nloc": 160,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/get_vale_conf.py",
+      "complexity_score": 21.46,
+      "metrics": {
+        "nloc": 91,
+        "function_count": 4,
+        "avg_cyclomatic_complexity": 4.25,
+        "max_cyclomatic_complexity": 7
+      }
+    },
+    {
+      "file": "docs/howto/troubleshooting/game-workarounds.md",
+      "complexity_score": 17.36,
+      "metrics": {
+        "nloc": 108,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/contributing/documentation.md",
+      "complexity_score": 16.72,
+      "metrics": {
+        "nloc": 104,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/_templates/footer.html",
+      "complexity_score": 16.56,
+      "metrics": {
+        "nloc": 103,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "complexity_score": 16.08,
+      "metrics": {
+        "nloc": 100,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/contributing/reports.md",
+      "complexity_score": 15.59,
+      "metrics": {
+        "nloc": 97,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/install.md",
+      "complexity_score": 15.43,
+      "metrics": {
+        "nloc": 96,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/conf.py",
+      "complexity_score": 14.63,
+      "metrics": {
+        "nloc": 91,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.custom_wordlist.txt",
+      "complexity_score": 12.54,
+      "metrics": {
+        "nloc": 78,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/_templates/header.html",
+      "complexity_score": 11.58,
+      "metrics": {
+        "nloc": 72,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/explanation/snap-versus-deb.md",
+      "complexity_score": 11.25,
+      "metrics": {
+        "nloc": 70,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/configure-mangohud.md",
+      "complexity_score": 10.45,
+      "metrics": {
+        "nloc": 65,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/configure-proton.md",
+      "complexity_score": 10.29,
+      "metrics": {
+        "nloc": 64,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/index.md",
+      "complexity_score": 9.81,
+      "metrics": {
+        "nloc": 61,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/_templates/page.html",
+      "complexity_score": 9.81,
+      "metrics": {
+        "nloc": 61,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/dedicated-gpu.md",
+      "complexity_score": 8.84,
+      "metrics": {
+        "nloc": 55,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/update-version.md",
+      "complexity_score": 8.84,
+      "metrics": {
+        "nloc": 55,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/_static/js/overwrite_links.js",
+      "complexity_score": 8.15,
+      "metrics": {
+        "nloc": 34,
+        "function_count": 6,
+        "avg_cyclomatic_complexity": 1.6666666666666667,
+        "max_cyclomatic_complexity": 2
+      }
+    },
+    {
+      "file": "docs/howto/set-up-controller.md",
+      "complexity_score": 7.56,
+      "metrics": {
+        "nloc": 47,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/.pymarkdown.json",
+      "complexity_score": 7.4,
+      "metrics": {
+        "nloc": 46,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reference/glossary.md",
+      "complexity_score": 7.4,
+      "metrics": {
+        "nloc": 46,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reuse/links.txt",
+      "complexity_score": 7.4,
+      "metrics": {
+        "nloc": 46,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "snap/hooks/configure",
+      "complexity_score": 7.23,
+      "metrics": {
+        "nloc": 45,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "snap/keys/B05498B7.asc",
+      "complexity_score": 6.91,
+      "metrics": {
+        "nloc": 43,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "complexity_score": 6.27,
+      "metrics": {
+        "nloc": 39,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.readthedocs.yaml",
+      "complexity_score": 6.27,
+      "metrics": {
+        "nloc": 39,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/change-mesa-graphics.md",
+      "complexity_score": 5.31,
+      "metrics": {
+        "nloc": 33,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/requirements.txt",
+      "complexity_score": 5.14,
+      "metrics": {
+        "nloc": 32,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/explanation/what-games-can-i-play.md",
+      "complexity_score": 4.98,
+      "metrics": {
+        "nloc": 31,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "README.md",
+      "complexity_score": 4.66,
+      "metrics": {
+        "nloc": 29,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.gitignore",
+      "complexity_score": 4.18,
+      "metrics": {
+        "nloc": 26,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reference/external-libraries.md",
+      "complexity_score": 4.18,
+      "metrics": {
+        "nloc": 26,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": ".github/workflows/build-snap.yml",
+      "complexity_score": 3.7,
+      "metrics": {
+        "nloc": 23,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/.pre-commit-config.yaml",
+      "complexity_score": 3.7,
+      "metrics": {
+        "nloc": 23,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/howto/index.md",
+      "complexity_score": 3.54,
+      "metrics": {
+        "nloc": 22,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/steam-snap.sh",
+      "complexity_score": 2.57,
+      "metrics": {
+        "nloc": 16,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/generic_issue.md",
+      "complexity_score": 2.25,
+      "metrics": {
+        "nloc": 14,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "tests/vulkan",
+      "complexity_score": 2.09,
+      "metrics": {
+        "nloc": 13,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/explanation/index.md",
+      "complexity_score": 1.93,
+      "metrics": {
+        "nloc": 12,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reference/index.md",
+      "complexity_score": 1.93,
+      "metrics": {
+        "nloc": 12,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": ".github/.jira_sync_config.yaml",
+      "complexity_score": 1.45,
+      "metrics": {
+        "nloc": 9,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/pa11y.json",
+      "complexity_score": 1.45,
+      "metrics": {
+        "nloc": 9,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": ".gitignore",
+      "complexity_score": 1.13,
+      "metrics": {
+        "nloc": 7,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/_static/css/snap-badge.css",
+      "complexity_score": 1.13,
+      "metrics": {
+        "nloc": 7,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reuse/substitutions.txt",
+      "complexity_score": 1.13,
+      "metrics": {
+        "nloc": 7,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/reuse/substitutions.yaml",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/glxgears",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/glxinfo",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/vkcube",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "src/vulkaninfo",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "tests/glx",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "tests/run.sh",
+      "complexity_score": 0.64,
+      "metrics": {
+        "nloc": 4,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/_static/css/dropdown.css",
+      "complexity_score": 0.48,
+      "metrics": {
+        "nloc": 3,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    },
+    {
+      "file": "docs/.sphinx/version",
+      "complexity_score": 0.16,
+      "metrics": {
+        "nloc": 1,
+        "function_count": 0,
+        "avg_cyclomatic_complexity": null,
+        "max_cyclomatic_complexity": null
+      }
+    }
+  ]
+}

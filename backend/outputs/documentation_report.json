@@ -1,0 +1,579 @@
+{
+  "agent": "documentation_gap_agent",
+  "repo": "C:\\Users\\Lenovo\\Downloads\\knowledge-handoff\\sample-repos\\steam-snap",
+  "file_count_analyzed": 52,
+  "files": [
+    {
+      "file": ".github/.jira_sync_config.yaml",
+      "documentation_score": 18,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no leading comment block; 0 meaningful inline comments across 9 lines; not referenced in external documentation."
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "documentation_score": 18,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no leading comment block; 0 meaningful inline comments across 100 lines; not referenced in external documentation."
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "documentation_score": 18,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no leading comment block; 0 meaningful inline comments across 39 lines; not referenced in external documentation."
+    },
+    {
+      "file": ".github/workflows/build-snap.yml",
+      "documentation_score": 18,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no leading comment block; 0 meaningful inline comments across 23 lines; not referenced in external documentation."
+    },
+    {
+      "file": "docs/.sphinx/.pymarkdown.json",
+      "documentation_score": 18,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no file-level comment header; 0 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "src/nvidia32",
+      "documentation_score": 23,
+      "metrics": {
+        "comment_count": 6,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no file-level comment header; 6 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "docs/reuse/substitutions.yaml",
+      "documentation_score": 28,
+      "metrics": {
+        "comment_count": 1,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no leading comment block; 1 meaningful inline comments across 4 lines; not referenced in external documentation."
+    },
+    {
+      "file": "src/vkcube",
+      "documentation_score": 30,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "trivial wrapper script (<=4 code lines; minimal documentation expected); no file-level comment header; 0 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "src/vulkaninfo",
+      "documentation_score": 30,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "trivial wrapper script (<=4 code lines; minimal documentation expected); no file-level comment header; 0 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "tests/glx",
+      "documentation_score": 30,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "trivial wrapper script (<=4 code lines; minimal documentation expected); no file-level comment header; 0 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "tests/run.sh",
+      "documentation_score": 30,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "trivial wrapper script (<=4 code lines; minimal documentation expected); no file-level comment header; 0 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "docs/.sphinx/get_vale_conf.py",
+      "documentation_score": 34,
+      "metrics": {
+        "comment_count": 14,
+        "docstring_count": 2,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no module-level docstring; 2/4 functions/classes have docstrings; 14 meaningful inline comments; not referenced in external documentation."
+    },
+    {
+      "file": "docs/.sphinx/pa11y.json",
+      "documentation_score": 38,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "no file-level comment header; 0 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "src/glxgears",
+      "documentation_score": 38,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "trivial wrapper script (<=4 code lines; minimal documentation expected); no file-level comment header; 0 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "src/glxinfo",
+      "documentation_score": 38,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "trivial wrapper script (<=4 code lines; minimal documentation expected); no file-level comment header; 0 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "src/steamreport",
+      "documentation_score": 40,
+      "metrics": {
+        "comment_count": 9,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "no file-level comment header; 9 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "docs/.sphinx/update_sp.py",
+      "documentation_score": 41,
+      "metrics": {
+        "comment_count": 27,
+        "docstring_count": 5,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "no module-level docstring; 5/6 functions/classes have docstrings; 27 meaningful inline comments; not referenced in external documentation."
+    },
+    {
+      "file": "snap/snapcraft.yaml",
+      "documentation_score": 42,
+      "metrics": {
+        "comment_count": 12,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "no leading comment block; 12 meaningful inline comments across 622 lines; referenced in external documentation."
+    },
+    {
+      "file": "src/desktop-launch",
+      "documentation_score": 48,
+      "metrics": {
+        "comment_count": 91,
+        "docstring_count": 2,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has file-level comment header; 2/8 shell functions preceded by a comment; 91 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "src/steam-snap.sh",
+      "documentation_score": 48,
+      "metrics": {
+        "comment_count": 2,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has file-level comment header; 2 meaningful inline comments; not directly referenced in external docs."
+    },
+    {
+      "file": "docs/reuse/substitutions.txt",
+      "documentation_score": 50,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "missing document title; 7 total lines, 5 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/.readthedocs.yaml",
+      "documentation_score": 58,
+      "metrics": {
+        "comment_count": 12,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has leading comment block; 12 meaningful inline comments across 39 lines; not referenced in external documentation."
+    },
+    {
+      "file": "docs/Makefile",
+      "documentation_score": 60,
+      "metrics": {
+        "comment_count": 9,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has file-level comment header; 9 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "docs/conf.py",
+      "documentation_score": 61,
+      "metrics": {
+        "comment_count": 141,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "no module-level docstring; 141 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "docs/reuse/mermaid.txt",
+      "documentation_score": 66,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "missing document title; 313 total lines, 245 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "snap/hooks/configure",
+      "documentation_score": 66,
+      "metrics": {
+        "comment_count": 4,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has file-level comment header; 4 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/generic_issue.md",
+      "documentation_score": 67,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": false
+      },
+      "reason": "missing document title; 14 total lines, 12 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "tests/vulkan",
+      "documentation_score": 68,
+      "metrics": {
+        "comment_count": 2,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has file-level comment header; 2 meaningful inline comments; referenced in external documentation."
+    },
+    {
+      "file": "docs/reuse/links.txt",
+      "documentation_score": 69,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": false,
+        "has_external_documentation": true
+      },
+      "reason": "missing document title; 46 total lines, 44 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "snap/gui/steam.desktop",
+      "documentation_score": 75,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has Name and Comment fields; referenced in external documentation."
+    },
+    {
+      "file": "docs/explanation/index.md",
+      "documentation_score": 80,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has document title/header; 12 total lines, 8 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/reference/index.md",
+      "documentation_score": 80,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has document title/header; 12 total lines, 8 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/explanation/snap-versus-deb.md",
+      "documentation_score": 92,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 70 total lines, 36 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "README.md",
+      "documentation_score": 92,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 29 total lines, 14 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/configure-proton.md",
+      "documentation_score": 93,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 64 total lines, 36 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/dedicated-gpu.md",
+      "documentation_score": 93,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 55 total lines, 30 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/set-up-controller.md",
+      "documentation_score": 93,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 47 total lines, 26 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/troubleshooting/index.md",
+      "documentation_score": 93,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has document title/header; 182 total lines, 102 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/contributing/documentation.md",
+      "documentation_score": 94,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 104 total lines, 64 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/contributing/reports.md",
+      "documentation_score": 94,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 97 total lines, 64 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/explanation/what-games-can-i-play.md",
+      "documentation_score": 94,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 31 total lines, 20 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/configure-mangohud.md",
+      "documentation_score": 94,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 65 total lines, 39 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/install.md",
+      "documentation_score": 94,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 96 total lines, 63 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/update-version.md",
+      "documentation_score": 94,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 55 total lines, 33 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/contributing/development.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 160 total lines, 115 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/change-mesa-graphics.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 33 total lines, 24 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/index.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has document title/header; 22 total lines, 15 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/howto/troubleshooting/game-workarounds.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 108 total lines, 75 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/index.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has document title/header; 61 total lines, 41 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/reference/external-libraries.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 26 total lines, 18 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/reference/glossary.md",
+      "documentation_score": 95,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": true
+      },
+      "reason": "has document title/header; 46 total lines, 31 content lines; this file is itself documentation; score reflects its own quality."
+    },
+    {
+      "file": "docs/.custom_wordlist.txt",
+      "documentation_score": 99,
+      "metrics": {
+        "comment_count": 0,
+        "docstring_count": 0,
+        "has_file_description": true,
+        "has_external_documentation": false
+      },
+      "reason": "has document title/header; 78 total lines, 77 content lines; this file is itself documentation; score reflects its own quality."
+    }
+  ]
+}

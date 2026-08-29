@@ -1,0 +1,328 @@
+{
+  "agent": "onboarding_agent",
+  "repo": "/Users/zohairmoosavi/ibm-hackathon/knowledge-handoff/sample-repos/steam-snap",
+  "method": "breadth0.5+recency0.3+depth0.2",
+  "high_risk_file_count": 8,
+  "files": [
+    {
+      "file": "docs/.sphinx/_static/js/overwrite_links.js",
+      "risk_level": "HIGH",
+      "dominant_owner": "shanecrowley",
+      "all_owners": [
+        "shanecrowley"
+      ],
+      "backups": [
+        {
+          "author": "ashuntu",
+          "readiness_score": 28.28,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 2,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": "docs/.sphinx/_templates/footer.html",
+      "risk_level": "HIGH",
+      "dominant_owner": "shanecrowley",
+      "all_owners": [
+        "shanecrowley"
+      ],
+      "backups": [
+        {
+          "author": "ashuntu",
+          "readiness_score": 28.28,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 2,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": "docs/.sphinx/_templates/header.html",
+      "risk_level": "HIGH",
+      "dominant_owner": "shanecrowley",
+      "all_owners": [
+        "shanecrowley"
+      ],
+      "backups": [
+        {
+          "author": "ashuntu",
+          "readiness_score": 28.28,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 2,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": "docs/.sphinx/_templates/page.html",
+      "risk_level": "HIGH",
+      "dominant_owner": "shanecrowley",
+      "all_owners": [
+        "shanecrowley"
+      ],
+      "backups": [
+        {
+          "author": "ashuntu",
+          "readiness_score": 28.28,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 2,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "risk_level": "HIGH",
+      "dominant_owner": "ashuntu",
+      "all_owners": [
+        "ashuntu"
+      ],
+      "backups": [
+        {
+          "author": "shanecrowley",
+          "readiness_score": 100.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 4,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": "docs/.sphinx/.pymarkdown.json",
+      "risk_level": "HIGH",
+      "dominant_owner": "shanecrowley",
+      "all_owners": [
+        "shanecrowley"
+      ],
+      "backups": [
+        {
+          "author": "ashuntu",
+          "readiness_score": 28.28,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 2,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": "src/nvidia32",
+      "risk_level": "HIGH",
+      "dominant_owner": "ashuntu",
+      "all_owners": [
+        "ashuntu"
+      ],
+      "backups": [
+        {
+          "author": "shanecrowley",
+          "readiness_score": 100.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 4,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 1,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    },
+    {
+      "file": "docs/.sphinx/get_vale_conf.py",
+      "risk_level": "HIGH",
+      "dominant_owner": "shanecrowley",
+      "all_owners": [
+        "shanecrowley"
+      ],
+      "backups": [
+        {
+          "author": "ashuntu",
+          "readiness_score": 28.28,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 2,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Denis Moskal",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        },
+        {
+          "author": "Jes\u00fas Soto",
+          "readiness_score": 0.0,
+          "bucket": "cold",
+          "direct_commits": 0,
+          "cochanged_files_touched": 0,
+          "neighbor_files_touched": 0,
+          "days_since_last_touch": null,
+          "why": "no direct history \u2014 closest active contributor by team leaderboard"
+        }
+      ]
+    }
+  ]
+}
