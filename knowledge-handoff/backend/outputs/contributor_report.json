@@ -1,0 +1,798 @@
+{
+  "agent": "contributor_agent",
+  "repo": "C:\\Users\\Lenovo\\Downloads\\knowledge-handoff\\sample-repos\\steam-snap",
+  "file_count_analyzed": 73,
+  "files": [
+    {
+      "file": "snap/keys/B05498B7.asc",
+      "author_count": 1,
+      "authors": [
+        "James Henstridge <james@jamesh.id.au>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2022-07-13",
+      "days_since_last_touch": 1507
+    },
+    {
+      "file": "tests/glx",
+      "author_count": 1,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2023-01-06",
+      "days_since_last_touch": 1330
+    },
+    {
+      "file": "src/glxgears",
+      "author_count": 1,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2023-01-11",
+      "days_since_last_touch": 1325
+    },
+    {
+      "file": "src/glxinfo",
+      "author_count": 1,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2023-01-11",
+      "days_since_last_touch": 1325
+    },
+    {
+      "file": "src/vkcube",
+      "author_count": 1,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2023-01-11",
+      "days_since_last_touch": 1325
+    },
+    {
+      "file": "tests/run.sh",
+      "author_count": 1,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>"
+      ],
+      "commit_count": 4,
+      "last_touch_date": "2023-01-11",
+      "days_since_last_touch": 1325
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/generic_issue.md",
+      "author_count": 1,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com>"
+      ],
+      "commit_count": 2,
+      "last_touch_date": "2023-07-17",
+      "days_since_last_touch": 1138
+    },
+    {
+      "file": "snap/gui/steam.desktop",
+      "author_count": 1,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2023-09-01",
+      "days_since_last_touch": 1092
+    },
+    {
+      "file": "src/nvidia32",
+      "author_count": 1,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com, ashton.nelson@canonical.com>"
+      ],
+      "commit_count": 14,
+      "last_touch_date": "2024-10-30",
+      "days_since_last_touch": 667
+    },
+    {
+      "file": ".github/.jira_sync_config.yaml",
+      "author_count": 1,
+      "authors": [
+        "Didier Roche <didier.roche@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2025-02-11",
+      "days_since_last_touch": 563
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "author_count": 1,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com, ashton.nelson@canonical.com>"
+      ],
+      "commit_count": 4,
+      "last_touch_date": "2025-10-14",
+      "days_since_last_touch": 318
+    },
+    {
+      "file": "docs/.gitignore",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/Makefile",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/requirements.txt",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/.pre-commit-config.yaml",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/.pymarkdown.json",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/get_vale_conf.py",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/pa11y.json",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/update_sp.py",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/version",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/.sphinx/_static/css/dropdown.css",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/assets/controller.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/assets/proton-protondb.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/assets/testing-four-boxes.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/assets/testing-verified-status.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/reuse/links.txt",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/reuse/mermaid.txt",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/reuse/substitutions.txt",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/reuse/substitutions.yaml",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-02-16",
+      "days_since_last_touch": 193
+    },
+    {
+      "file": "docs/assets/external-libs.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-03-02",
+      "days_since_last_touch": 179
+    },
+    {
+      "file": "docs/assets/app-center-dark.webp",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-04-16",
+      "days_since_last_touch": 134
+    },
+    {
+      "file": "docs/assets/app-center-light.webp",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-04-16",
+      "days_since_last_touch": 134
+    },
+    {
+      "file": "docs/contributing/documentation.md",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-04-28",
+      "days_since_last_touch": 122
+    },
+    {
+      "file": "docs/assets/troubleshoot-report-dialog-dark.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/assets/troubleshoot-report-dialog-light.png",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/contributing/reports.md",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/.sphinx/_static/css/snap-badge.css",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-05-27",
+      "days_since_last_touch": 93
+    },
+    {
+      "file": "docs/.sphinx/_templates/page.html",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-05-27",
+      "days_since_last_touch": 93
+    },
+    {
+      "file": "docs/.sphinx/_static/js/overwrite_links.js",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 2,
+      "last_touch_date": "2026-07-21",
+      "days_since_last_touch": 38
+    },
+    {
+      "file": "docs/.sphinx/_templates/footer.html",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-07-21",
+      "days_since_last_touch": 38
+    },
+    {
+      "file": "docs/.sphinx/_templates/header.html",
+      "author_count": 1,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 1,
+      "last_touch_date": "2026-07-21",
+      "days_since_last_touch": 38
+    },
+    {
+      "file": "src/steam-snap.sh",
+      "author_count": 2,
+      "authors": [
+        "Jes\u00fas Soto <jesus.soto@canonical.com>",
+        "Ken VanDine <ken@vandine.org>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2023-02-28",
+      "days_since_last_touch": 1277
+    },
+    {
+      "file": "tests/vulkan",
+      "author_count": 2,
+      "authors": [
+        "ashuntu <ashton.nelson@canonical.com>",
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>"
+      ],
+      "commit_count": 5,
+      "last_touch_date": "2023-06-05",
+      "days_since_last_touch": 1180
+    },
+    {
+      "file": "src/steamreport",
+      "author_count": 2,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com>",
+        "Ash <101582426+ashuntu@users.noreply.github.com>"
+      ],
+      "commit_count": 21,
+      "last_touch_date": "2023-08-21",
+      "days_since_last_touch": 1103
+    },
+    {
+      "file": ".gitignore",
+      "author_count": 2,
+      "authors": [
+        "ashuntu <ashton.nelson@canonical.com>",
+        "Ken VanDine <ken@vandine.org>"
+      ],
+      "commit_count": 2,
+      "last_touch_date": "2025-10-14",
+      "days_since_last_touch": 318
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "author_count": 2,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com, ashton.nelson@canonical.com>",
+        "Ash <101582426+ashuntu@users.noreply.github.com>"
+      ],
+      "commit_count": 7,
+      "last_touch_date": "2026-02-02",
+      "days_since_last_touch": 207
+    },
+    {
+      "file": "docs/.custom_wordlist.txt",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/explanation/index.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 2,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/explanation/snap-versus-deb.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 10,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/howto/dedicated-gpu.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/howto/set-up-controller.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/howto/update-version.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/howto/troubleshooting/game-workarounds.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 4,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/reference/external-libraries.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 4,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/reference/glossary.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2026-04-27",
+      "days_since_last_touch": 123
+    },
+    {
+      "file": "docs/contributing/development.md",
+      "author_count": 2,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 10,
+      "last_touch_date": "2026-04-28",
+      "days_since_last_touch": 122
+    },
+    {
+      "file": "docs/howto/index.md",
+      "author_count": 2,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2026-04-28",
+      "days_since_last_touch": 122
+    },
+    {
+      "file": "docs/explanation/what-games-can-i-play.md",
+      "author_count": 2,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/howto/configure-proton.md",
+      "author_count": 2,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/howto/install.md",
+      "author_count": 2,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 11,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/howto/troubleshooting/index.md",
+      "author_count": 2,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 10,
+      "last_touch_date": "2026-04-29",
+      "days_since_last_touch": 121
+    },
+    {
+      "file": "docs/index.md",
+      "author_count": 2,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 16,
+      "last_touch_date": "2026-05-27",
+      "days_since_last_touch": 93
+    },
+    {
+      "file": "src/vulkaninfo",
+      "author_count": 3,
+      "authors": [
+        "ashuntu <ashton.nelson@canonical.com>",
+        "Zoe Spellman <zoe.spellman@canonical.com>",
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>"
+      ],
+      "commit_count": 5,
+      "last_touch_date": "2023-06-05",
+      "days_since_last_touch": 1180
+    },
+    {
+      "file": "snap/hooks/configure",
+      "author_count": 3,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com>",
+        "Ash <101582426+ashuntu@users.noreply.github.com>",
+        "Sergio Costas Rodriguez <sergio.costas@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2024-01-08",
+      "days_since_last_touch": 963
+    },
+    {
+      "file": "docs/.readthedocs.yaml",
+      "author_count": 3,
+      "authors": [
+        "Andreia <andreia.velasco@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 3,
+      "last_touch_date": "2026-05-26",
+      "days_since_last_touch": 94
+    },
+    {
+      "file": "docs/howto/change-mesa-graphics.md",
+      "author_count": 3,
+      "authors": [
+        "Andreia <andreia.velasco@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 6,
+      "last_touch_date": "2026-05-28",
+      "days_since_last_touch": 92
+    },
+    {
+      "file": "docs/howto/configure-mangohud.md",
+      "author_count": 3,
+      "authors": [
+        "ashuntu <ashton.nelson@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 10,
+      "last_touch_date": "2026-06-03",
+      "days_since_last_touch": 86
+    },
+    {
+      "file": "docs/reference/index.md",
+      "author_count": 3,
+      "authors": [
+        "ashuntu <ashton.nelson@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>",
+        "shanecrowley <shane.crowley@canonical.com>"
+      ],
+      "commit_count": 4,
+      "last_touch_date": "2026-06-08",
+      "days_since_last_touch": 81
+    },
+    {
+      "file": "docs/conf.py",
+      "author_count": 3,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "Andreia <andreia.velasco@canonical.com>",
+        "andreia <andreia.velasco@canonical.com>"
+      ],
+      "commit_count": 12,
+      "last_touch_date": "2026-07-22",
+      "days_since_last_touch": 37
+    },
+    {
+      "file": ".github/workflows/build-snap.yml",
+      "author_count": 4,
+      "authors": [
+        "andreia <andreia.velasco@canonical.com>",
+        "ashuntu <ashton.nelson@canonical.com>",
+        "jssotomdz <105805873+jssotomdz@users.noreply.github.com>",
+        "James Henstridge <james@jamesh.id.au>"
+      ],
+      "commit_count": 5,
+      "last_touch_date": "2026-04-10",
+      "days_since_last_touch": 140
+    },
+    {
+      "file": "README.md",
+      "author_count": 6,
+      "authors": [
+        "shanecrowley <shane.crowley@canonical.com>",
+        "Shane Crowley <66971213+edibotopic@users.noreply.github.com>",
+        "Ken VanDine <ken.vandine@canonical.com>",
+        "Ash <101582426+ashuntu@users.noreply.github.com>",
+        "Alberto Contreras <alberto.contreras@canonical.com>",
+        "James Henstridge <james@jamesh.id.au>"
+      ],
+      "commit_count": 11,
+      "last_touch_date": "2026-05-27",
+      "days_since_last_touch": 93
+    },
+    {
+      "file": "src/desktop-launch",
+      "author_count": 8,
+      "authors": [
+        "ashuntu <101582426+ashuntu@users.noreply.github.com, ashton.nelson@canonical.com>",
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>",
+        "fntenjr <203029929+fntenjr@users.noreply.github.com>",
+        "Kyuyrii <190517858+Kyuyrii@users.noreply.github.com>",
+        "Zoe Spellman <zoe.spellman@canonical.com>",
+        "Sergio Costas Rodriguez <sergio.costas@canonical.com>",
+        "Ash <101582426+ashuntu@users.noreply.github.com>",
+        "Umayr <umayr23@gmail.com>"
+      ],
+      "commit_count": 39,
+      "last_touch_date": "2026-07-09",
+      "days_since_last_touch": 50
+    },
+    {
+      "file": "snap/snapcraft.yaml",
+      "author_count": 12,
+      "authors": [
+        "Ken VanDine <ken.vandine@canonical.com, ken@vandine.org>",
+        "fntenjr <203029929+fntenjr@users.noreply.github.com>",
+        "Kyuyrii <kyuyriibyakko@gmail.com>",
+        "ashuntu <101582426+ashuntu@users.noreply.github.com, ashton.nelson@canonical.com>",
+        "jssotomdz <105805873+jssotomdz@users.noreply.github.com>",
+        "Zoe Spellman <zoe.spellman@canonical.com>",
+        "Sergio Costas Rodriguez <sergio.costas@canonical.com>",
+        "Ash <101582426+ashuntu@users.noreply.github.com>",
+        "Jes\u00fas Soto <jesus.soto@canonical.com>",
+        "James Henstridge <james@jamesh.id.au>",
+        "Denis Moskal <denis.moskal@gmail.com>",
+        "soredake <5204968+soredake@users.noreply.github.com>"
+      ],
+      "commit_count": 171,
+      "last_touch_date": "2026-08-27",
+      "days_since_last_touch": 1
+    }
+  ]
+}
